@@ -120,6 +120,23 @@ margin-left: 20px;
 
 }
 
+.choice_step:before{
+
+content: counter(compteListe)"1";
+
+background: #9356dc;
+height: 1.5rem;
+width: 1.5rem;
+border-radius: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+position: absolute;
+left: -.75rem;
+
+}
+
 .fa-store{
      
         margin-right: 1rem;
